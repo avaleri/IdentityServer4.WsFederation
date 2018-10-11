@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreWsFederation", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{68E4130D-F17C-483D-B8C1-92BEDB3E0D6E}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ExpressApp", "src\ExpressApp\ExpressApp\ExpressApp.njsproj", "{4EF61AFD-80E3-4B9F-A393-2ECC60418392}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1F30E0E8-3C17-44C3-90AF-A0BE2E1D069A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F30E0E8-3C17-44C3-90AF-A0BE2E1D069A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F30E0E8-3C17-44C3-90AF-A0BE2E1D069A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF61AFD-80E3-4B9F-A393-2ECC60418392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF61AFD-80E3-4B9F-A393-2ECC60418392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF61AFD-80E3-4B9F-A393-2ECC60418392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF61AFD-80E3-4B9F-A393-2ECC60418392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 		{A40486A5-0BEB-4CB0-9390-4A0D998CE3E1} = {68E4130D-F17C-483D-B8C1-92BEDB3E0D6E}
 		{1F30E0E8-3C17-44C3-90AF-A0BE2E1D069A} = {68E4130D-F17C-483D-B8C1-92BEDB3E0D6E}
 		{68E4130D-F17C-483D-B8C1-92BEDB3E0D6E} = {54D98041-C6CE-4487-AC2B-3C44C6FF14D4}
+		{4EF61AFD-80E3-4B9F-A393-2ECC60418392} = {68E4130D-F17C-483D-B8C1-92BEDB3E0D6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {917E525C-4ED5-4E03-AB25-E56F9469C4EB}

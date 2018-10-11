@@ -1,0 +1,15 @@
+﻿doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/main.css')
+  body
+    div 
+         a(href="/") Home
+         span(style="display: inline-block; width:20px;")
+         a(href="/claims") View your claims
+         span(style="display: inline-block; width:20px;")
+         a(href="/admin") Protected admin page (super secret)
+         span(style="display: inline-block; width:20px;")
+         a(href="/logout") Logout
+    block content

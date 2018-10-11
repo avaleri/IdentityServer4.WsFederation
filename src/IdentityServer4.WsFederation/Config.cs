@@ -12,7 +12,7 @@ namespace IdentityServer4.WsFederation
             return new[]
             {
                 new IdentityResources.OpenId(),
-                new IdentityResource("profile", new[] { JwtClaimTypes.Name, JwtClaimTypes.Email })
+                new IdentityResource("profile", new[] { JwtClaimTypes.Name, JwtClaimTypes.Email, JwtClaimTypes.Role })
             };
         }
 
@@ -29,6 +29,17 @@ namespace IdentityServer4.WsFederation
         {
             return new[]
             {
+                new Client
+                {
+                    ClientId = "urn:node:app",
+                    ProtocolType = ProtocolTypes.WsFederation,
+
+                    RedirectUris = { "http://localhost:3030/login/callback" },
+                    FrontChannelLogoutUri = "http://localhost:3030/home/signoutcleanup",
+                    IdentityTokenLifetime = 36000,
+
+                    AllowedScopes = { "openid", "profile" }
+                },
                 new Client
                 {
                     ClientId = "urn:owinrp",
